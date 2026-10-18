@@ -14,5 +14,6 @@
   "src/types/database.ts",
   "src/lib/supabase.ts",
   "src/lib/imageCompression.ts",
-  "src/context/LanguageContext.tsx"
+  "src/context/LanguageContext.tsx",
+  "src/context/AuthContext.tsx"
 ]
