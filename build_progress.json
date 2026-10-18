@@ -48,5 +48,6 @@
   "src/features/homework/DailyHomeworkUploader.tsx",
   "src/features/notices/TeacherClassNotices.tsx",
   "src/features/leave/TeacherLeaveCenter.tsx",
-  "src/App.tsx"
+  "src/App.tsx",
+  "src/main.tsx"
 ]
