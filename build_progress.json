@@ -32,5 +32,6 @@
   "src/pages/auth/TeacherRegistrationPage.tsx",
   "src/pages/auth/PendingApprovalPage.tsx",
   "src/pages/principal/PrincipalDashboard.tsx",
-  "src/features/registrations/PendingRegistrationsModule.tsx"
+  "src/features/registrations/PendingRegistrationsModule.tsx",
+  "src/features/staff/StaffAndAssignmentsModule.tsx"
 ]
