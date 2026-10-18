@@ -21,5 +21,6 @@
   "src/layouts/PrincipalLayout.tsx",
   "src/layouts/TeacherLayout.tsx",
   "src/pages/public/AboutPage.tsx",
-  "src/pages/public/AdmissionsPage.tsx"
+  "src/pages/public/AdmissionsPage.tsx",
+  "src/pages/public/PublicNoticesPage.tsx"
 ]
