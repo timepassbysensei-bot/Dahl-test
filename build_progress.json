@@ -13,5 +13,6 @@
   "supabase/seed.sql",
   "src/types/database.ts",
   "src/lib/supabase.ts",
-  "src/lib/imageCompression.ts"
+  "src/lib/imageCompression.ts",
+  "src/context/LanguageContext.tsx"
 ]
