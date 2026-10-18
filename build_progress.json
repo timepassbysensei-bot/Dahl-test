@@ -30,5 +30,6 @@
   "src/pages/public/LegalPages.tsx",
   "src/pages/auth/TeacherLoginPage.tsx",
   "src/pages/auth/TeacherRegistrationPage.tsx",
-  "src/pages/auth/PendingApprovalPage.tsx"
+  "src/pages/auth/PendingApprovalPage.tsx",
+  "src/pages/principal/PrincipalDashboard.tsx"
 ]
