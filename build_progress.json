@@ -5,5 +5,6 @@
   "tailwind.config.js",
   "postcss.config.js",
   ".env.example",
-  "netlify.toml"
+  "netlify.toml",
+  "index.html"
 ]
