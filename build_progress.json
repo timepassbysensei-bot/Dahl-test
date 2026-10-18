@@ -6,5 +6,6 @@
   "postcss.config.js",
   ".env.example",
   "netlify.toml",
-  "index.html"
+  "index.html",
+  "supabase/migrations/001_initial_schema.sql"
 ]
