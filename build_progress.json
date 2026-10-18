@@ -35,5 +35,6 @@
   "src/features/registrations/PendingRegistrationsModule.tsx",
   "src/features/staff/StaffAndAssignmentsModule.tsx",
   "src/features/classes/ClassSectionManager.tsx",
-  "src/features/students/StudentManager.tsx"
+  "src/features/students/StudentManager.tsx",
+  "src/features/notices/PrincipalNoticesManager.tsx"
 ]
