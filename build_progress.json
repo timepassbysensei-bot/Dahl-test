@@ -25,5 +25,6 @@
   "src/pages/public/PublicNoticesPage.tsx",
   "src/pages/public/GalleryPage.tsx",
   "src/pages/public/ResourcesPage.tsx",
-  "src/pages/public/CalendarPage.tsx"
+  "src/pages/public/CalendarPage.tsx",
+  "src/pages/public/ContactPage.tsx"
 ]
