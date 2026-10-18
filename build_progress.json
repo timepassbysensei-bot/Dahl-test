@@ -38,5 +38,6 @@
   "src/features/students/StudentManager.tsx",
   "src/features/notices/PrincipalNoticesManager.tsx",
   "src/features/leave/LeaveInboxModule.tsx",
-  "src/features/timings/TimingAndEmergencyModule.tsx"
+  "src/features/timings/TimingAndEmergencyModule.tsx",
+  "src/features/gallery/GalleryAndMediaManager.tsx"
 ]
