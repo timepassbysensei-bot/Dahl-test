@@ -1,0 +1,58 @@
+<think>The user wants me to create a tsconfig.json file for the View Point Public School project. This is a TypeScript configuration file for a Vite + React project.
+
+Let me create a comprehensive tsconfig.json that follows best practices for this stack:
+
+1. Strict mode enabled
+2. React JSX support
+3. Path aliases for the feature-based structure
+4. ESNext target for modern JavaScript
+5. Proper module resolution
+6. Type checking for JS files
+7. Strict null checks
+8. No implicit any
+
+I need to output ONLY the raw code, no markdown backticks, no explanations.
+</think>
+
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "useDefineForClassFields": true,
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitReturns": true,
+    "noImplicitOverride": true,
+    "exactOptionalPropertyTypes": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"],
+      "@components/*": ["./src/components/*"],
+      "@layouts/*": ["./src/layouts/*"],
+      "@pages/*": ["./src/pages/*"],
+      "@features/*": ["./src/features/*"],
+      "@hooks/*": ["./src/hooks/*"],
+      "@lib/*": ["./src/lib/*"],
+      "@services/*": ["./src/services/*"],
+      "@types/*": ["./src/types/*"],
+      "@validation/*": ["./src/validation/*"],
+      "@public/*": ["./public/*"]
+    },
+    "types": ["vite/client", "vitest/globals"]
+  },
+  "include": ["src", "tests"],
+  "exclude": ["node_modules", "dist", ".netlify"],
+  "references": [{ "path": "./tsconfig.node.json" }]
+}
