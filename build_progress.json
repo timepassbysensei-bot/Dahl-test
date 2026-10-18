@@ -49,5 +49,6 @@
   "src/features/notices/TeacherClassNotices.tsx",
   "src/features/leave/TeacherLeaveCenter.tsx",
   "src/App.tsx",
-  "src/main.tsx"
+  "src/main.tsx",
+  "src/index.css"
 ]
