@@ -12,5 +12,6 @@
   "supabase/migrations/003_storage_buckets.sql",
   "supabase/seed.sql",
   "src/types/database.ts",
-  "src/lib/supabase.ts"
+  "src/lib/supabase.ts",
+  "src/lib/imageCompression.ts"
 ]
