@@ -36,5 +36,6 @@
   "src/features/staff/StaffAndAssignmentsModule.tsx",
   "src/features/classes/ClassSectionManager.tsx",
   "src/features/students/StudentManager.tsx",
-  "src/features/notices/PrincipalNoticesManager.tsx"
+  "src/features/notices/PrincipalNoticesManager.tsx",
+  "src/features/leave/LeaveInboxModule.tsx"
 ]
