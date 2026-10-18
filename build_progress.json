@@ -28,5 +28,6 @@
   "src/pages/public/CalendarPage.tsx",
   "src/pages/public/ContactPage.tsx",
   "src/pages/public/LegalPages.tsx",
-  "src/pages/auth/TeacherLoginPage.tsx"
+  "src/pages/auth/TeacherLoginPage.tsx",
+  "src/pages/auth/TeacherRegistrationPage.tsx"
 ]
