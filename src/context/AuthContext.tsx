@@ -1,26 +1,3 @@
-<think>The user wants me to create a complete production-ready AuthContext.tsx file for the View Point Public School application. This context needs to:
-
-1. Set up Supabase Auth provider
-2. Fetch user profile from the database
-3. Determine canonical role (Principal, Teacher, Pending Teacher)
-4. Support Principal access to Teacher dashboard without altering stored roles
-5. Handle loading states, error states, and proper authentication flow
-
-Let me create a comprehensive AuthContext that handles all these requirements properly.
-
-Key features needed:
-- React Context for authentication state
-- Supabase client integration
-- Profile fetching with role determination
-- Principal-to-Teacher dashboard access (showing "Principal access — all authorized classes")
-- Proper loading/error states
-- Role-based access helpers
-- Sign out functionality
-- Profile updates
-
-I'll use the standard Supabase auth patterns with React Query for data fetching.
-</think>
-
 import { createContext, useContext, useEffect, useState, useCallback, type ReactNode } from 'react';
 import { useNavigate } from 'react-router-dom';
 import type { Session, User } from '@supabase/supabase-js';

@@ -1,32 +1,3 @@
-<think>The user wants me to create a complete, production-ready StudentManager.tsx file for the View Point Public School application. This is a student records manager with specific requirements:
-
-1. Photo consent management
-2. Public display consent
-3. Class/section filtering
-4. Role-based privacy
-
-Let me design a comprehensive student management component that:
-- Uses React with TypeScript
-- Follows the design system (navy, gold accents, etc.)
-- Integrates with Supabase
-- Has proper loading, error, empty states
-- Supports bilingual fields (English/Hindi)
-- Has proper form validation with Zod
-- Uses TanStack Query for data fetching
-- Follows the feature-based structure
-
-The component should allow:
-- Viewing all students (filtered by role - Principal sees all, Teacher sees assigned)
-- Adding new students
-- Editing student information
-- Managing photo consent
-- Managing public display consent
-- Filtering by class and section
-- Soft deletion/archiving
-
-Let me create a comprehensive StudentManager component:
-</think>
-
 import { useState, useMemo } from 'react';
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 import { useForm } from 'react-hook-form';

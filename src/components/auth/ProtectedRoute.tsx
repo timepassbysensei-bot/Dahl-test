@@ -1,29 +1,3 @@
-<think>The user wants me to create a ProtectedRoute component for the View Point Public School application. This component needs to:
-
-1. Handle role-based route protection
-2. Allow Principal access to Teacher routes with a banner
-3. Handle Pending Teacher status
-4. Support authentication state
-5. Be production-ready with proper error handling
-
-Let me create a comprehensive ProtectedRoute component that:
-- Uses Supabase auth
-- Checks user roles
-- Handles loading states
-- Shows appropriate UI for different access levels
-- Includes the Principal access banner when needed
-- Redirects appropriately based on role
-
-I'll need to consider:
-- The component should wrap protected routes
-- It should check authentication first
-- Then check authorization based on allowed roles
-- Show appropriate loading/error/permission denied states
-- Handle the special case of Principal accessing Teacher routes
-
-Let me write this component:
-</think>
-
 import { useEffect, useState, type ReactNode } from 'react';
 import { Navigate, useLocation } from 'react-router-dom';
 import { useAuth } from '@/hooks/useAuth';

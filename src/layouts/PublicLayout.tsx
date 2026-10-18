@@ -1,36 +1,3 @@
-<think>The user wants me to create a complete production-ready PublicLayout.tsx file for the View Point Public School application. This is a React/TypeScript component using Tailwind CSS, React Router, and Supabase.
-
-Let me analyze the requirements:
-
-1. Responsive public website layout
-2. Dynamic Emergency Alert bar
-3. Announcement bar
-4. Header with EN/HI language toggle
-5. Logo
-6. Navigation links
-7. FAQ Chatbot widget
-8. Dynamic Footer
-
-I need to create a comprehensive layout component that includes all these features. Let me structure this properly:
-
-1. Emergency Alert Bar - should be dismissible, show when there's an active alert
-2. Announcement Bar - optional announcements
-3. Header - logo, school name, navigation, language toggle, mobile menu
-4. Main content area
-5. FAQ Chatbot widget - floating button that opens a chat
-6. Footer - logo, description, contact info, quick links, social links, legal links, current year
-
-I'll need to:
-- Use React Router for navigation
-- Use Lucide icons
-- Use Supabase for fetching alerts and announcements
-- Create a mobile-responsive design
-- Implement the language toggle functionality
-- Create a chatbot widget
-
-Let me write the complete code:
-
-```tsx
 import { useState, useEffect } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { Menu, X, Globe, Bell, Mail, Phone, MapPin, Calendar, BookOpen, Users, Award, Image, FileText, MessageSquare, ChevronRight, Facebook, Twitter, Instagram, Youtube, Linkedin, AlertTriangle, Volume2, VolumeX } from 'lucide-react';

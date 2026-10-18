@@ -1,15 +1,3 @@
-<think>The user wants me to create a vite.config.ts file for the View Point Public School application. This is a React + TypeScript + Vite project that uses Supabase, Tailwind CSS, and various other technologies.
-
-Let me create a comprehensive vite.config.ts that includes:
-1. Path aliases for clean imports
-2. Build optimization settings
-3. React plugin configuration
-4. Server configuration for development
-5. Build configuration for production
-
-I need to output ONLY the raw code without markdown backticks or explanations.
-</think>
-
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import path from 'path';
