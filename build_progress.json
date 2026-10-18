@@ -16,5 +16,6 @@
   "src/lib/imageCompression.ts",
   "src/context/LanguageContext.tsx",
   "src/context/AuthContext.tsx",
-  "src/components/auth/ProtectedRoute.tsx"
+  "src/components/auth/ProtectedRoute.tsx",
+  "src/layouts/PublicLayout.tsx"
 ]
