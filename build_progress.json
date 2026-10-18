@@ -4,5 +4,6 @@
   "vite.config.ts",
   "tailwind.config.js",
   "postcss.config.js",
-  ".env.example"
+  ".env.example",
+  "netlify.toml"
 ]
