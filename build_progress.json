@@ -43,5 +43,6 @@
   "src/features/enquiries/EnquiriesAndMessagesModule.tsx",
   "src/features/student-of-month/StudentOfMonthAndBirthdays.tsx",
   "src/features/settings/WebsiteContentAndBranding.tsx",
-  "src/features/audit/AuditLogViewer.tsx"
+  "src/features/audit/AuditLogViewer.tsx",
+  "src/pages/teacher/TeacherDashboard.tsx"
 ]
