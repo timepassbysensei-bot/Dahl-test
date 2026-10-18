@@ -44,5 +44,6 @@
   "src/features/student-of-month/StudentOfMonthAndBirthdays.tsx",
   "src/features/settings/WebsiteContentAndBranding.tsx",
   "src/features/audit/AuditLogViewer.tsx",
-  "src/pages/teacher/TeacherDashboard.tsx"
+  "src/pages/teacher/TeacherDashboard.tsx",
+  "src/features/homework/DailyHomeworkUploader.tsx"
 ]
