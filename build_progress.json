@@ -18,5 +18,6 @@
   "src/context/AuthContext.tsx",
   "src/components/auth/ProtectedRoute.tsx",
   "src/layouts/PublicLayout.tsx",
-  "src/layouts/PrincipalLayout.tsx"
+  "src/layouts/PrincipalLayout.tsx",
+  "src/layouts/TeacherLayout.tsx"
 ]
