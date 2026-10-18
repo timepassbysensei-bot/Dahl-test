@@ -41,5 +41,6 @@
   "src/features/timings/TimingAndEmergencyModule.tsx",
   "src/features/gallery/GalleryAndMediaManager.tsx",
   "src/features/enquiries/EnquiriesAndMessagesModule.tsx",
-  "src/features/student-of-month/StudentOfMonthAndBirthdays.tsx"
+  "src/features/student-of-month/StudentOfMonthAndBirthdays.tsx",
+  "src/features/settings/WebsiteContentAndBranding.tsx"
 ]
